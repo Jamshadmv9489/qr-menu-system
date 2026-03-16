@@ -16,4 +16,5 @@ const categorySchema = new mongoose.Schema({
     timestamps: true          // adds createdAt & updatedAt
 });
 
+// Export Category model
 export default mongoose.model("Category", categorySchema);

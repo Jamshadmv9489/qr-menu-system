@@ -50,4 +50,5 @@ const orderSchema = new mongoose.Schema({
     timestamps: true          // Adds createdAt and updatedAt
 });
 
-module.exports = mongoose.model("Order", orderSchema);
+// Export Order model
+export default mongoose.model("Order", orderSchema);

@@ -26,4 +26,4 @@ const restaurantSchema = new mongoose.Schema({
 });
 
 // Export Restaurant model
-module.exports = mongoose.model("Restaurant", restaurantSchema);
+export default mongoose.model("Restaurant", restaurantSchema);
